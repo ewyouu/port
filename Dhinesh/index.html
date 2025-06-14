@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhinesh Portfolio</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      rel="stylesheet"
+    />
+	<script src="https://kit.fontawesome.com/02a6da067b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/assert/D hinesh (1).png" class="logo" alt="" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onClick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onClick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hi,I'm <span id="name"> </span><br />
+            From Mayiladuthurai
+          </h1>
+        </div>
+        <div>
+          <a href="/assert/Dhinesh CV .docx CV" class="btn btn2" download
+          >Download CV</a>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <p class="topabout">Get To Know More</p>
+      <h1 class="sub-title about_me">About Me</h1>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/assert/aboutme - Copy.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <p>
+              I'm Dhinesh, a Web Developer and a second-year student at A.V.C.
+              College, Mayiladuthurai. I have hands-on experience in HTML, CSS,
+              and JavaScript, which I use to build responsive, user-friendly
+              websites. During my web development internship with Corizo, I
+              worked on real-world projects that enhanced my coding and
+              problem-solving skills. I am a quick learner and a positive
+              thinker, passionate about creating interactive and visually
+              appealing web applications
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onClick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onClick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onClick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>HTML</span><br />Introduction to HTML certificate of
+                  completion - Simplilearn
+                </li>
+                <li>
+                  <span>JavaScript</span><br />JavaScript fundamentals -
+                  GreatStack
+                </li>
+                <li>
+                  <span>Microsoft Power BI workshop</span><br />analyzing and
+                  visualizing data with microsoft power BI - Livewire Institute
+                </li>
+                <li>
+                  <span>Full stack development</span><br />Full stack
+                  development workshop - GUVI
+                </li>
+                <li>
+                  <span>Python</span><br />python course certificate for
+                  completion - GUVI
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Web Development Intern - Corizo</span><br />Developing
+                  interactive , and responsive web application using HTML and
+                  CSS and JavaScript.
+                </li>
+                <li>
+                  <span>Web Development Intern - E-Soft IT Solution</span><br />Developing
+                  interactive , and responsive web application using HTML,
+                  CSS and JavaScript & Php
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023 - 2026 </span><br />Bachelor of Computer
+                  Application,AVC College , Mayiladuthurai
+                </li>
+                <li><span>2023</span><br />12th Grade</li>
+                <li><span>2021</span><br />10th Grade</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title my_service">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I Build functional, responsive, and user-friendly websites from scratch, focusing on both design and performance
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Front End Development</h2>
+            <p>I Specialize in front-End development using HTML,CSS and JavaScript ensuring clean , efficient code and smooth user interactions.</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Web Design</h2>
+            <p>
+              I Create visually appealing and modern web interfaces, prioritizing user experience and responsive design for all screen sizes.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title my_projects">My Project</h1>
+        <div class="work-list">
+          <div class="work">
+            <img
+              src="/assert/WhatsApp Image 2025-01-31 at 5.54.10 AM (1).jpeg"
+              alt=""
+            />
+            <div class="layer">
+              <h3>Gaming app</h3>
+              <p>Game buy shop download the game and play now</p>
+              <a href="https://github.com/Dhineshmusa2005/Game-buy.git"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="/assert/WhatsApp Image 2025-01-31 at 5.54.10 AM.jpeg"
+              alt=""
+            />
+            <div class="layer">
+              <!-- <h3>game shop</h3> -->
+              <p>
+                <!-- game buy shop  -->
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img
+              src="/assert/aboutme - Copy.jpg"
+              alt=""
+            />
+            <div class="layer">
+              <!-- <h3>Online shop app</h3> -->
+              <p>
+                <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. -->
+                <!-- Necessitatibus, id? -->
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <div id="contact">
+      <p class="touch">Get in Touch</p>
+      <h1 class="sub-title contact">Contact Me</h1>
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <a href="mailto:kumanandhinesh@gmail.com">
+              <i class="fa-solid fa-paper-plane"></i> kumanandhinesh@gmail.com
+            </a>
+            <br>
+            <br>
+            <a href="tel:8940013267"><i class="fa-solid fa-phone"></i> +91 8940013267</p></a>
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/ewyouu____?igsh=NmQ0a2w4OW14anY0" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <!-- add social media link in anchor add inside-->
+              <a href="https://x.com/K_Dhinesh23?t=fHq866TWtC4DOvRrDWZ7cA&s=09" target="_blank"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/dhinesh-k-274545279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form method="post" id="submit-to-google-sheet" action="insert.php">
+   <input type="text" name="Name"  placeholder="Your Name" required />
+    <input
+                type="email"
+                name="Email"
+                id="a2"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                id="a3"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit"  id="submit" class="btn btn2">Submit</button>
+              <span id="msg"></span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+        <script>
+          const scriptURL =
+            "https://script.google.com/macros/s/AKfycbw-r_899IHiuzuxFgQ4Ro_a85r7KVHMq3L11DJXsaWiVo8uwZVbrXKDcVB9E6ChD93T/exec";
+          const form = document.forms["submit-to-google-sheet"];
+          const msg = document.getElementById("msg");
+    
+          form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+              .then((response) => {
+                msg.innerHTML = "Message sent Successfully";
+                setTimeout(function () {
+                  msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+              })
+              .catch((error) => console.error("Error!", error.message));
+          });
+        </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#name", {
+        strings: ["Dhinesh", "Web Developer", "Dhinesh"],
+        typeSpeed: 100,
+        typeSpeed: 100,
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+</html>
